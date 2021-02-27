@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+body{
+    background-color: rebeccapurple;
+}
+
+.para-404{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.app{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.main-heading{
+    margin-top: 100px;
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.main-para{
+    color: white;
+    font-family: 'Nanum Gothic';
+}
