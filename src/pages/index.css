@@ -2,12 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 body{
-    background-color: rebeccapurple;
+    background-color: #663399;
 }
 
-.para-404{
-    font-family: 'Nanum Gothic', sans-serif;
-}
 
 .app{
     width: 70%;
@@ -22,4 +19,34 @@ body{
 .main-para{
     color: white;
     font-family: 'Nanum Gothic';
+}
+.input{
+    border: white solid 1px !important;
+    margin: 15px !important;
+}
+.add-btn{
+    justify-content: right !important;
+}
+
+.bookmark-card{
+    background-color: white;
+    width: 50%;
+    margin: 25px auto;
+    padding: 15px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.bookmark-name{
+    color: rebeccapurple;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.bookmark-url{
+    font-family: 'Nanum Gothic';
+    text-decoration: none;
+    color: gray;
+}
+.delete-btn{
+    display: block !important;
+    margin-top: 15px !important;
 }
