@@ -46,6 +46,11 @@ body{
     text-decoration: none;
     color: gray;
 }
+.bookmark-para{
+    font-family: 'Nanum Gothic';
+    color: rgb(58, 58, 58);
+    overflow-wrap: break-word;
+}
 .delete-btn{
     display: block !important;
     margin-top: 15px !important;
