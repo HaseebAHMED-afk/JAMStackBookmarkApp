@@ -1,0 +1,9 @@
+type Query {
+  getBookmark: [Bookmark]
+}
+type Bookmark {
+  url: String!
+  name: String!
+  description: String!
+}
+
